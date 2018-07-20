@@ -16,3 +16,5 @@ export default () => {
 
   return {}
 }
+
+export const RCFileName = '.bscpmrc'
