@@ -6,12 +6,10 @@
 
 ### API
 #### RCFileName 
-* 属性
-* 获取配置文件的名字
-#### getPackageInfo
-* 函数
-* 是否存在package.json获取都不会报错
-#### extractRCFromPakcage
-* 从package.json文件中提取配置信息
-#### default
-* 获取配置文件json格式数据
+获取配置文件的名字
+#### getPackageInfo()
+是否存在package.json获取都不会报错
+#### extractRCFromPakcage()
+从package.json文件中提取配置信息
+#### default()
+获取配置文件json格式数据
