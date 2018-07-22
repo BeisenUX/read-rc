@@ -1,0 +1,2 @@
+![Build Status](https://travis-ci.org/BeisenUX/read-rc.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/BeisenUX/read-rc/badge.svg)](https://coveralls.io/github/BeisenUX/read-rc)
