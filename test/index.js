@@ -26,4 +26,10 @@ describe('读取配置文件', () => {
     let rc = readRC()
     assert.equal(rc.name, 'READRC')
   })
+
+  it('测试未找到package.json情况', () => {
+    process.chdir(`${__dirname}/empty`)
+    let packinfo = getPackageInfo()
+    assert.equal(Object.keys(packinfo).length, 0)
+  })
 })
