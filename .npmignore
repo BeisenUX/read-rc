@@ -22,3 +22,5 @@ gulpfile.js
 # editor settings
 .idea
 .editorconfig
+
+coverage

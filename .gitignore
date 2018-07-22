@@ -22,6 +22,8 @@ unused.txt
 # Log Files
 *.log
 
+coverage
+
 # Lines that start with '#' are comments.
 # IntelliJ IDEA Project files
 .idea

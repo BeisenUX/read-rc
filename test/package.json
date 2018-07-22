@@ -1,0 +1,5 @@
+{
+  "name": "@beisen/read-rc",
+  "version": "0.0.5",
+  "main": "lib/index.js"
+}
