@@ -3,7 +3,7 @@ import fs from 'fs'
 import Hjson from 'hjson'
 
 // 配置文件支持的名字
-const fileNames = [ '.bscpmrc', '.bscpmrc.json', '.upm', '.upmrc' ]
+const fileNames = [ '.bscpmrc', '.bscpmrc.json' ]
 
 export const RCFileName = '.bscpmrc'
 
@@ -27,7 +27,10 @@ export const extractRCFromPakcage = () => {
     'developers': developers,
     'team': 'Unknown',
     'category': '',
-    'device': ''
+    'device': '',
+    'mock': {
+      'https': '' // mock https 路径，如：./recordings
+    }
   }
 }
 
